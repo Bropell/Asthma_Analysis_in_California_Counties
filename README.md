@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Resources/Asthma_banner.png"/>
-</p><br>
+</p>
 
 ## Project Overview
 The purpose of this project was to develop a machine learning model that will try and help determine what features, 
