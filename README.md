@@ -5,7 +5,9 @@ The general flow of the machine learning process will be as follows:
 
 ![Flowchart](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/flowchart_MachineLearning.png)
 
-As we all finish our designated tasks we will all have input into this process to better the model and optimize the models as best as possible. This will be no easy task due to the abundance of data we will have and will see how well we can predict areas that are at much higher risk of having children being born with asthma or developing asthma.
+All team members will have input into the process to optimize the model, providing the highest target accuracy without overfitting. The 
+main challenge here is the abundance of data and ensuring how well predictions can be made regarding areas that are at a much higher risk 
+of having children being born with asthma or developing asthma in adolescence.
 
 ## Endgame
 
