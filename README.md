@@ -16,3 +16,7 @@ used for this analysis:<br>
 - Traffic Data 
 
 ## Comminucation Protocols
+- Brandon Ropell: Repository maintenance, help others as needed (Square Role)
+- Andrew Stein: Machine learning model (Triangle Role)
+- Mel Phillips/Christina Ocampo: Database maintenance and data acquisition (Circle Role) 
+- All members: Technology choices for each step of the project (X Role)
