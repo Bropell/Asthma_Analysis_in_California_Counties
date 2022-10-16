@@ -5,6 +5,7 @@ We decided to develop a machine learning model that will try and help determine 
 Looking specifically at California and its counties, we plan on training this ML model to predict whether or not a county is ABOVE or BELOW the California's collective asthma rate (8.8%). If a county is 8.8% or above, it should receive a score of 1, on the other hand, if the county is below that threshold, it should receive a score of 0. 
 
 We plan on training this model by combining the following California datasets:
+
     - Asthma Rates
     - Demographics Data
     - EV charging Stations
