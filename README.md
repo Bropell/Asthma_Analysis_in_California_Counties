@@ -12,13 +12,12 @@ or below California's collective asthma rate of 8.8%. The following list include
 used for this analysis:<br>
 
 - Asthma Rates
-- Demographics Data
-- EV Charging Stations
-- Registered EVs
 - Wildfire Data
-- CO2/Emissions Data
-- Weather/Ozone Data
-- Traffic Data 
+- Air Pollution 
+- Demographics Data
+- Registered EVs
+- EV Charging Stations
+- Clean Energy Generation (GwH)
 
 ## Comminucation Protocols
 - Brandon Ropell: Repository maintenance, help others as needed (Square Role)
