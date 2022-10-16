@@ -1,4 +1,4 @@
-# Final_Project
+# Asthma_Analysis_in_California_Counties
 
 We decided to develop a machine learning model that will try and help determine what, if any features might cause / correlate with increased rates of asthma. 
 
