@@ -19,7 +19,7 @@ used for this analysis:<br>
 - EV Charging Stations
 - Clean Energy Generation (GwH)
 
-## Comminucation Protocols
+## Communication Protocols
 - Brandon Ropell: Repository maintenance, help others as needed (Square Role)
 - Andrew Stein: Machine learning model (Triangle Role)
 - Mel Phillips/Christina Ocampo: Database maintenance and data acquisition (Circle Role) 
