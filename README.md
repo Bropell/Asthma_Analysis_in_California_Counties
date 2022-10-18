@@ -14,3 +14,4 @@ This week started with the initial search for dataset, as listed below. Firstly,
   •	Wildfire data
   •	Air pollutants
 
+As there were two people working on this roll, Mel did the pre-processing as I (and the team) located pertenant datesets. We collaberated on the schema, which Mel transcrribed and I reviewed. 
