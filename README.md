@@ -31,3 +31,12 @@ used for this analysis:<br>
 
 - <h4 align="left">Demographics</h4>
     https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
+
+- <h4 align="left">Asthma Rates</h4>
+    https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
+
+- <h4 align="left">Air Pollutants</h4>
+    https://ephtracking.cdc.gov/DataExplorer/?c=11
+
+- <h4 align="left">Charging Stations</h4>
+    https://www.kaggle.com/datasets/prasertk/electric-vehicle-charging-stations-in-usa
