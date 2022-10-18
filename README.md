@@ -24,3 +24,10 @@ used for this analysis:<br>
 - Andrew Stein: Machine learning model (Triangle Role)
 - Mel Phillips/Christina Ocampo: Database maintenance and data acquisition (Circle Role) 
 - All members: Technology choices for each step of the project (X Role)
+
+## Resources
+- <h4 align="center">Cali Clean Energy</h4>
+    https://cecgis-caenergy.opendata.arcgis.com/documents/CAEnergy::2019-utility-scale-renewable-electrical-generation-totals-by-county-energy-produced/explore 
+
+- <h4 align="center">Demographics</h4>
+    https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
