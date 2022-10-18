@@ -26,7 +26,7 @@ used for this analysis:<br>
 - All members: Technology choices for each step of the project (X Role)
 
 ## Resources
-- <h4 align="left">Cali Clean Energy</h4>
+- <h4 align="left">Cali Clean Energy Generation</h4>
     https://cecgis-caenergy.opendata.arcgis.com/documents/CAEnergy::2019-utility-scale-renewable-electrical-generation-totals-by-county-energy-produced/explore 
 
 - <h4 align="left">Demographics</h4>
@@ -35,8 +35,14 @@ used for this analysis:<br>
 - <h4 align="left">Asthma Rates</h4>
     https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 
-- <h4 align="left">Air Pollutants</h4>
+- <h4 align="left">Air Pollution</h4>
     https://ephtracking.cdc.gov/DataExplorer/?c=11
 
-- <h4 align="left">Charging Stations</h4>
+- <h4 align="left">EV Charging Stations</h4>
     https://www.kaggle.com/datasets/prasertk/electric-vehicle-charging-stations-in-usa
+
+- <h4 align="left">Wildfire Data</h4>
+    https://www.kaggle.com/datasets/ananthu017/california-wildfire-incidents-20132020
+
+- <h4 align="left">Registered EVs</h4>
+    https://www.atlasevhub.com/materials/state-ev-registration-data/#data
