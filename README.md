@@ -17,7 +17,11 @@ used for this analysis:<br>
 - Demographics Data
 - Registered EVs
 - EV Charging Stations
-- Clean Energy Generation (GwH)
+- Clean Energy Generation (GwH)<br>
+
+As seen from the types of datasets being used, there is a focus on clean energy and certain environmental factors that
+could affect clean energy efforts. The motivation for the analysis is to determine the environmental benefits as well as 
+the public health benefits in relation to these specific clean energy projects.
 
 ## Communication Protocols
 - Brandon Ropell: Repository maintenance, help others as needed (Square Role)
