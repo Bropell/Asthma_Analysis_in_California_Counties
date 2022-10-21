@@ -43,3 +43,5 @@ https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 Focusing on the Counties in order to join. We will be using the Pollutants and Quantiy per year. 
 
 https://ephtracking.cdc.gov/DataExplorer/?c=11
+
+** Please note that we had to delete my branch and readd 10/20/2022 due to a merging issue. 
