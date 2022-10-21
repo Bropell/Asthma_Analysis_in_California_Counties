@@ -1,0 +1,88 @@
+CREATE TABLE "Demographic_Data" (
+    "Tract_Id" BIGINT   NOT NULL,
+    "State" VARCHAR   NOT NULL,
+    "County" VARCHAR   NOT NULL,
+    "Total_Population" INT   NOT NULL,
+    "Men" INT   NOT NULL,
+    "Women" INT   NOT NULL,
+    "Hispanic" FLOAT   NOT NULL,
+    "White" FLOAT   NOT NULL,
+    "Black" FLOAT  NOT NULL,
+    "Native" FLOAT   NOT NULL,
+    "Asian" FLOAT   NOT NULL,
+    "Pacific" FLOAT   NOT NULL,
+    "Voting_Age_Citizen" INT   NOT NULL,
+    "Income" FLOAT   NOT NULL,
+    "Income_Err" FLOAT   NOT NULL,
+    "Income_Per_Cap" FLOAT   NOT NULL,
+    "Income_Per_Cap_Err" FLOAT   NOT NULL,
+    "Poverty"  FLOAT  NOT NULL,
+    "Child_Poverty" FLOAT   NOT NULL,
+    "Professional" FLOAT   NOT NULL,
+    "Service" FLOAT   NOT NULL,
+    "Office" FLOAT   NOT NULL,
+    "Construction" FLOAT   NOT NULL,
+    "Production" FLOAT   NOT NULL,
+    "Drive" FLOAT   NOT NULL,
+    "Carpool" FLOAT   NOT NULL,
+    "Transit" FLOAT   NOT NULL,
+    "Walk" FLOAT   NOT NULL,
+    "Other_Transport" FLOAT   NOT NULL,
+    "Work_At_Home" FLOAT   NOT NULL,
+    "Mean_commute" FLOAT   NOT NULL,
+    "Employed" INT   NOT NULL,
+    "Private_Work" FLOAT   NOT NULL,
+    "Public_Work" FLOAT   NOT NULL,
+    "Self_Employed" FLOAT   NOT NULL,
+    "Family_Work" FLOAT   NOT NULL,
+    "Unemployment" FLOAT   NOT NULL,
+    CONSTRAINT "pk_demographic_data" PRIMARY KEY (
+        "Tract_Id"
+     )
+);
+
+CREATE TABLE "Asthma_By_County" (
+    "County" VARCHAR   NOT NULL,
+    "Years" VARCHAR   NOT NULL,
+    "Age_Group" VARCHAR   NOT NULL,
+    "Asthma_Prevalence" FLOAT   NOT NULL);
+
+CREATE TABLE "Air_Pollutants" (
+    "County" VARCHAR   NOT NULL,
+    "Value" FLOAT   NOT NULL,
+    "Pollutant" VARCHAR   NOT NULL
+);
+
+CREATE TABLE "Wildfires" (
+    "Acres_Burned" FLOAT   NOT NULL,
+    "Year" INT   NOT NULL,
+    "Cal_Fire_Incident" BOOLEAN   NOT NULL,
+    "County" VARCHAR   NOT NULL
+);
+
+CREATE TABLE "Ev_Chargers" (
+    "State" VARCHAR   NOT NULL,
+    "Zipcode" INT   NOT NULL,
+    "Access_Code" VARCHAR   NOT NULL,
+    "Latitude" FLOAT   NOT NULL,
+    "Longitude" FLOAT NOT NULL
+);
+
+CREATE TABLE "Registered_Evs" (
+    "County" VARCHAR   NOT NULL,
+    "Ev_Count" INT   NOT NULL
+);
+
+CREATE TABLE "Electric_Substations" (
+    "Object_ID" INT   NOT NULL,
+    "County" VARCHAR   NOT NULL,
+    "Max_Voltage" FLOAT   NOT NULL,
+    "Source" VARCHAR   NOT NULL,
+    "State" VARCHAR   NOT NULL,
+    "Zipcode" INT   NOT NULL,
+    "Longitude" FLOAT Not Null,
+    "Latitude" FLOAT NOT NULL,
+    CONSTRAINT "pk_electric_substations" PRIMARY KEY (
+        "Object_ID"
+     )
+);
