@@ -20,12 +20,12 @@ As there were two people working on this roll, Mel did the pre-processing as I [
 
 ### References 
 Demographics
+Focusing on the Counties in order to join.
 https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
 
 
 Asthma Rates
 https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
-
 
 Air Pollution
 https://ephtracking.cdc.gov/DataExplorer/?c=11
