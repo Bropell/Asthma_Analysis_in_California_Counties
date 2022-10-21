@@ -25,20 +25,21 @@ As there were two people working on this roll, Mel did the pre-processing as I [
 
 
 ### References 
-#### Demographics
+####  • Demographics
 
 Focusing on the Counties in order to join. Using for population count
 
 https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
 
 
-#### Asthma Rates
+####  • Asthma Rates
 
 Focusing on the Counties in order to join. This dataset is key as we derive the asthma rates and prevelance in California. 
 
 https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 
-#### Air Pollution
+####  • Air Pollution
 
 Focusing on the Counties in order to join. We will be using the Pollutants and Quantiy per year. 
+
 https://ephtracking.cdc.gov/DataExplorer/?c=11
