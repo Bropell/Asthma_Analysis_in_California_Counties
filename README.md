@@ -21,4 +21,5 @@ After completing and running this ML model, plan on reviewing and determining wh
 
 Created an draft version of our database format
 
-![Screen Shot 2022-10-18 at 9 09 10 PM](https://user-images.githubusercontent.com/106599446/196573893-ce2e6c27-0feb-4bf3-bf2d-c6fb31e242b1.png)
+![ERD](https://user-images.githubusercontent.com/106599446/197090181-b0a1c58a-e84a-48ce-9a50-2419f31dd483.png)
+
