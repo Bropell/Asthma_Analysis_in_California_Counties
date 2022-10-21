@@ -1,3 +1,7 @@
+![flag-of-california-logo-png-transparent](https://user-images.githubusercontent.com/105950742/197089346-ab589b04-9119-4170-9fa6-559f70933828.png)
+
+
+
 # Asthma_Analysis_in_California_Counties
 
 Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this analysis, we would like to propose how clean energy policies can be beneficial both enviromentally and for public health. 
