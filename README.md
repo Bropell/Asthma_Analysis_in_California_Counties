@@ -1,8 +1,8 @@
 # Asthma_Analysis_in_California_Counties
 
-Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this Analysis, we would like to propose how clean energy policies can be beneficial enviromentally and for public health. 
+Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this analysis, we would like to propose how clean energy policies can be beneficial both enviromentally and for public health. 
 
-We will be using a ML model to predict if individuals in California are above (1) or below (0) the as asthma rate of 8.8%  
+We will be using a ML model to predict if individuals in California are above (1) or below (0) the as asthma rate of 8.8% and which enviromental factor impacts the counties the most. From there we can properly recommend how California can improve its enviromental infrastructure in order to also improve public heatlh. Making this a public health issue, not just an enviromental issue, opens up possible local government allocated funds. 
 
 ## Week 1
 
