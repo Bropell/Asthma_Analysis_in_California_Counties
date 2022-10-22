@@ -1,31 +1,51 @@
+![flag-of-california-logo-png-transparent](https://user-images.githubusercontent.com/105950742/197089346-ab589b04-9119-4170-9fa6-559f70933828.png)
+
+
+
 # Asthma_Analysis_in_California_Counties
 
-Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this Analysis, we would like to propose how clean energy policies can be beneficial enviromentally and for public health. 
+Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this analysis, we would like to propose how clean energy policies can be beneficial both enviromentally and for public health. 
 
-We will be using a ML model to predict if individuals in California are above (1) or below (0) the as asthma rate of 8.8%  
+We will be using a ML model to predict if individuals in California are above (1) or below (0) the as asthma rate of 8.8% and which enviromental factor impacts the counties the most. From there we can properly recommend how California can improve its enviromental infrastructure in order to also improve public heatlh. Making this a public health issue, not just an enviromental issue, opens up possible local government allocated funds. 
 
 ## Week 1
 
 This week started with the initial search for dataset, as listed below. Firstly, we found datasets for the California demographics and asthma rated. Then, searched for datasets with California counties as the primary connection, to account for the external factors we were interested in exploring. 
 
-  •	Asthma Rates
+  • Asthma Rates
+  
   •	Demographics Data
+  
   •	EV charging Stations
+  
   •	Registered EVs
+  
   •	Wildfire data
+  
   •	Air pollutants
+  
 
 As there were two people working on this roll, Mel did the pre-processing as I [and the team] located pertenant datesets, please see references for the dataset I located below. We collaberated on the schema, which Mel transcrribed as I reviewed. 
 
 
 ### References 
-Demographics
+####  • Demographics
+
+Focusing on the Counties in order to join. Using for population count
+
 https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
 
 
-Asthma Rates
+####  • Asthma Rates
+
+Focusing on the Counties in order to join. This dataset is key as we derive the asthma rates and prevelance in California. 
+
 https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 
+####  • Air Pollution
 
-Air Pollution
+Focusing on the Counties in order to join. We will be using the Pollutants and Quantiy per year. 
+
 https://ephtracking.cdc.gov/DataExplorer/?c=11
+
+** Please note that we had to delete my branch and readd 10/20/2022 due to a merging issue. 
