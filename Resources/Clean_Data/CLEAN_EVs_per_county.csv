@@ -1,60 +1,59 @@
-,County
-Los Angeles County,154234
-Orange County,76706
-Santa Clara County,73092
-San Diego County,51616
-Alameda County,45785
-Contra Costa County,25938
-San Mateo County,24890
-Riverside County,22953
-San Bernardino County,17279
-San Francisco County,16134
-Sacramento County,15855
-Ventura County,13080
-Sonoma County,9868
-Marin County,9657
-Placer County,6339
-San Joaquin County,5918
-Fresno County,5481
-Santa Cruz County,5420
-Solano County,5139
-Santa Barbara County,5088
-Unknown,4554
-San Luis Obispo County,3964
-Monterey County,3429
-Kern County,3222
-Yolo County,2948
-El Dorado County,2795
-Stanislaus County,2606
-Napa County,2365
-Humboldt County,1475
-Tulare County,1391
-Nevada County,1113
-Butte County,982
-Merced County,968
-Mendocino County,924
-Shasta County,734
-San Benito County,718
-Madera County,574
-Kings County,379
-Lake County,376
-Sutter County,364
-Yuba County,289
-Imperial County,288
-Calaveras County,276
-Tuolumne County,240
-Amador County,226
-Tehama County,143
-Siskiyou County,98
-Del Norte County,92
-Mariposa County,81
-Inyo County,78
-Mono County,67
-Glenn County,65
-Plumas County,52
-Trinity County,47
-Colusa County,45
-Lassen County,14
-Alpine County,11
-Sierra County,7
-Modoc County,1
+County,Registered EV Count
+Los Angeles ,154234
+Orange ,76706
+Santa Clara ,73092
+San Diego ,51616
+Alameda ,45785
+Contra Costa ,25938
+San Mateo ,24890
+Riverside ,22953
+San Bernardino ,17279
+San Francisco ,16134
+Sacramento ,15855
+Ventura ,13080
+Sonoma ,9868
+Marin ,9657
+Placer ,6339
+San Joaquin ,5918
+Fresno ,5481
+Santa Cruz ,5420
+Solano ,5139
+Santa Barbara ,5088
+San Luis Obispo ,3964
+Monterey ,3429
+Kern ,3222
+Yolo ,2948
+El Dorado ,2795
+Stanislaus ,2606
+Napa ,2365
+Humboldt ,1475
+Tulare ,1391
+Nevada ,1113
+Butte ,982
+Merced ,968
+Mendocino ,924
+Shasta ,734
+San Benito ,718
+Madera ,574
+Kings ,379
+Lake ,376
+Sutter ,364
+Yuba ,289
+Imperial ,288
+Calaveras ,276
+Tuolumne ,240
+Amador ,226
+Tehama ,143
+Siskiyou ,98
+Del Norte ,92
+Mariposa ,81
+Inyo ,78
+Mono ,67
+Glenn ,65
+Plumas ,52
+Trinity ,47
+Colusa ,45
+Lassen ,14
+Alpine ,11
+Sierra ,7
+Modoc ,1
