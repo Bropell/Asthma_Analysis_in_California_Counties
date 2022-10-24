@@ -47,5 +47,5 @@ used for this analysis:<br>
 - <h4 align="left">Registered EVs</h4>
     https://www.atlasevhub.com/materials/state-ev-registration-data/#data
     <h5 align="left">Features</h5>
-    - County 
+    - County<br> 
     - Registered EV Count
