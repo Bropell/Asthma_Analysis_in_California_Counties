@@ -40,6 +40,11 @@ used for this analysis:<br>
 
 - <h4 align="left">EV Charging Stations</h4>
     https://www.kaggle.com/datasets/prasertk/electric-vehicle-charging-stations-in-usa
+    <h5 align="left">Features</h5>
+    - County<br> 
+    - Total EV Chargers<br>
+    - Private EV Chargers<br>
+    - Public EV Chargers
 
 - <h4 align="left">Wildfire Data</h4>
     https://www.kaggle.com/datasets/ananthu017/california-wildfire-incidents-20132020
