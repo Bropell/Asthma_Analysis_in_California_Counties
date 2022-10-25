@@ -48,4 +48,49 @@ Focusing on the Counties in order to join. We will be using the Pollutants and Q
 
 https://ephtracking.cdc.gov/DataExplorer/?c=11
 
-** Please note that we had to delete my branch and readd 10/20/2022 due to a merging issue. 
+** Please note that we had to delete my branch and readd 10/20/2022 due to a merging issue.
+
+
+
+## Week 2: Deep Cleaning and Creating Database
+
+Mel and I further cleaned and combine out datasets to create our database. 
+
+- Air Polutants datae: 
+
+	- Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
+
+- Asthma by County data: 
+
+	- Removed unneccessary columns from the dataset.
+
+	- Filled in missing values from 2015-2016 years with values form 2017- 2018.
+ 
+	- Replaced Asthma Prevelance column with Target values which assigned 1 (above) or 0 (below) for if they were above the 8.8% state average prevelance.
+ 
+	- Imported the data base to SQL and joined on the "County" column.
+
+-Demographics data:
+
+	- Removed the word "County" from the County column values so the data could properly merge in SQL.
+
+	- Removed unneccessary columns from the dataset.
+
+	- Grouped by counties to remove duplicates and get the sum().
+
+	- Learned the "TRIM" funtion to remove spaces inorder for the columns to merge properly.
+
+	- Dropped duplicate County Column created by merge.
+
+	- Imported the data base to SQL and joined on the "County" column.
+
+- Electric Substation:
+
+	- Removed the word "County" from the County column values so the data could properly merge in SQL.
+
+	- Removed unneccessary columns from the dataset.
+
+	- Agreigated County column.
+
+	- Imported the data base to SQL and joined on the "County" column.
+
