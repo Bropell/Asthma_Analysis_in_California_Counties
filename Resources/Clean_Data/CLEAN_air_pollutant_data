@@ -1,0 +1,291 @@
+County,Value,Pollutant
+Alameda,0.66,Pollutant: Benzene
+Alameda,1.33,Pollutant: Formaldehyde
+Alameda,1.2,Pollutant: Acetaldehyde
+Alameda,0.55,Pollutant: Carbon tetrachloride
+Alameda,0.07,"Pollutant: 1,3-butadiene"
+Alpine,0.07,Pollutant: Benzene
+Alpine,0.76,Pollutant: Formaldehyde
+Alpine,0.99,Pollutant: Acetaldehyde
+Alpine,0.55,Pollutant: Carbon tetrachloride
+Alpine,0.01,"Pollutant: 1,3-butadiene"
+Amador,0.22,Pollutant: Benzene
+Amador,1.89,Pollutant: Formaldehyde
+Amador,1.85,Pollutant: Acetaldehyde
+Amador,0.55,Pollutant: Carbon tetrachloride
+Amador,0.02,"Pollutant: 1,3-butadiene"
+Butte,0.48,Pollutant: Benzene
+Butte,2.34,Pollutant: Formaldehyde
+Butte,2.28,Pollutant: Acetaldehyde
+Butte,0.55,Pollutant: Carbon tetrachloride
+Butte,0.05,"Pollutant: 1,3-butadiene"
+Calaveras,0.21,Pollutant: Benzene
+Calaveras,1.77,Pollutant: Formaldehyde
+Calaveras,1.76,Pollutant: Acetaldehyde
+Calaveras,0.55,Pollutant: Carbon tetrachloride
+Calaveras,0.02,"Pollutant: 1,3-butadiene"
+Colusa,0.25,Pollutant: Benzene
+Colusa,1.72,Pollutant: Formaldehyde
+Colusa,1.85,Pollutant: Acetaldehyde
+Colusa,0.55,Pollutant: Carbon tetrachloride
+Colusa,0.01,"Pollutant: 1,3-butadiene"
+Contra Costa,0.58,Pollutant: Benzene
+Contra Costa,1.38,Pollutant: Formaldehyde
+Contra Costa,1.24,Pollutant: Acetaldehyde
+Contra Costa,0.55,Pollutant: Carbon tetrachloride
+Contra Costa,0.06,"Pollutant: 1,3-butadiene"
+Del Norte,0.29,Pollutant: Benzene
+Del Norte,0.89,Pollutant: Formaldehyde
+Del Norte,1.07,Pollutant: Acetaldehyde
+Del Norte,0.55,Pollutant: Carbon tetrachloride
+Del Norte,0.01,"Pollutant: 1,3-butadiene"
+El Dorado,0.3,Pollutant: Benzene
+El Dorado,1.9,Pollutant: Formaldehyde
+El Dorado,1.89,Pollutant: Acetaldehyde
+El Dorado,0.55,Pollutant: Carbon tetrachloride
+El Dorado,0.03,"Pollutant: 1,3-butadiene"
+Fresno,0.47,Pollutant: Benzene
+Fresno,2.2,Pollutant: Formaldehyde
+Fresno,2.13,Pollutant: Acetaldehyde
+Fresno,0.55,Pollutant: Carbon tetrachloride
+Fresno,0.04,"Pollutant: 1,3-butadiene"
+Glenn,0.38,Pollutant: Benzene
+Glenn,1.92,Pollutant: Formaldehyde
+Glenn,2.02,Pollutant: Acetaldehyde
+Glenn,0.55,Pollutant: Carbon tetrachloride
+Glenn,0.02,"Pollutant: 1,3-butadiene"
+Humboldt,0.37,Pollutant: Benzene
+Humboldt,0.92,Pollutant: Formaldehyde
+Humboldt,1.09,Pollutant: Acetaldehyde
+Humboldt,0.55,Pollutant: Carbon tetrachloride
+Humboldt,0.03,"Pollutant: 1,3-butadiene"
+Imperial,0.73,Pollutant: Benzene
+Imperial,2.17,Pollutant: Formaldehyde
+Imperial,2.22,Pollutant: Acetaldehyde
+Imperial,0.55,Pollutant: Carbon tetrachloride
+Imperial,0.03,"Pollutant: 1,3-butadiene"
+Inyo,0.2,Pollutant: Benzene
+Inyo,0.82,Pollutant: Formaldehyde
+Inyo,1.06,Pollutant: Acetaldehyde
+Inyo,0.55,Pollutant: Carbon tetrachloride
+Inyo,0.01,"Pollutant: 1,3-butadiene"
+Kern,0.43,Pollutant: Benzene
+Kern,2.19,Pollutant: Formaldehyde
+Kern,2.18,Pollutant: Acetaldehyde
+Kern,0.55,Pollutant: Carbon tetrachloride
+Kern,0.03,"Pollutant: 1,3-butadiene"
+Kings,0.39,Pollutant: Benzene
+Kings,1.9,Pollutant: Formaldehyde
+Kings,1.98,Pollutant: Acetaldehyde
+Kings,0.55,Pollutant: Carbon tetrachloride
+Kings,0.02,"Pollutant: 1,3-butadiene"
+Lake,0.29,Pollutant: Benzene
+Lake,1.35,Pollutant: Formaldehyde
+Lake,1.41,Pollutant: Acetaldehyde
+Lake,0.55,Pollutant: Carbon tetrachloride
+Lake,0.02,"Pollutant: 1,3-butadiene"
+Lassen,0.14,Pollutant: Benzene
+Lassen,0.95,Pollutant: Formaldehyde
+Lassen,1.22,Pollutant: Acetaldehyde
+Lassen,0.55,Pollutant: Carbon tetrachloride
+Lassen,0.01,"Pollutant: 1,3-butadiene"
+Los Angeles,0.76,Pollutant: Benzene
+Los Angeles,2.03,Pollutant: Formaldehyde
+Los Angeles,1.87,Pollutant: Acetaldehyde
+Los Angeles,0.55,Pollutant: Carbon tetrachloride
+Los Angeles,0.08,"Pollutant: 1,3-butadiene"
+Madera,0.41,Pollutant: Benzene
+Madera,1.92,Pollutant: Formaldehyde
+Madera,1.88,Pollutant: Acetaldehyde
+Madera,0.55,Pollutant: Carbon tetrachloride
+Madera,0.02,"Pollutant: 1,3-butadiene"
+Marin,0.45,Pollutant: Benzene
+Marin,1.07,Pollutant: Formaldehyde
+Marin,1.07,Pollutant: Acetaldehyde
+Marin,0.55,Pollutant: Carbon tetrachloride
+Marin,0.04,"Pollutant: 1,3-butadiene"
+Mariposa,0.13,Pollutant: Benzene
+Mariposa,1.6,Pollutant: Formaldehyde
+Mariposa,1.77,Pollutant: Acetaldehyde
+Mariposa,0.55,Pollutant: Carbon tetrachloride
+Mariposa,0.01,"Pollutant: 1,3-butadiene"
+Mendocino,0.35,Pollutant: Benzene
+Mendocino,1.16,Pollutant: Formaldehyde
+Mendocino,1.31,Pollutant: Acetaldehyde
+Mendocino,0.55,Pollutant: Carbon tetrachloride
+Mendocino,0.02,"Pollutant: 1,3-butadiene"
+Merced,0.5,Pollutant: Benzene
+Merced,1.89,Pollutant: Formaldehyde
+Merced,1.82,Pollutant: Acetaldehyde
+Merced,0.55,Pollutant: Carbon tetrachloride
+Merced,0.03,"Pollutant: 1,3-butadiene"
+Modoc,0.2,Pollutant: Benzene
+Modoc,0.8,Pollutant: Formaldehyde
+Modoc,1.08,Pollutant: Acetaldehyde
+Modoc,0.55,Pollutant: Carbon tetrachloride
+Modoc,0.01,"Pollutant: 1,3-butadiene"
+Mono,0.07,Pollutant: Benzene
+Mono,0.55,Pollutant: Formaldehyde
+Mono,0.78,Pollutant: Acetaldehyde
+Mono,0.55,Pollutant: Carbon tetrachloride
+Mono,0.0,"Pollutant: 1,3-butadiene"
+Monterey,0.41,Pollutant: Benzene
+Monterey,1.07,Pollutant: Formaldehyde
+Monterey,0.97,Pollutant: Acetaldehyde
+Monterey,0.55,Pollutant: Carbon tetrachloride
+Monterey,0.03,"Pollutant: 1,3-butadiene"
+Napa,0.4,Pollutant: Benzene
+Napa,1.31,Pollutant: Formaldehyde
+Napa,1.32,Pollutant: Acetaldehyde
+Napa,0.55,Pollutant: Carbon tetrachloride
+Napa,0.03,"Pollutant: 1,3-butadiene"
+Nevada,0.25,Pollutant: Benzene
+Nevada,2.02,Pollutant: Formaldehyde
+Nevada,2.03,Pollutant: Acetaldehyde
+Nevada,0.55,Pollutant: Carbon tetrachloride
+Nevada,0.02,"Pollutant: 1,3-butadiene"
+Orange,0.69,Pollutant: Benzene
+Orange,1.74,Pollutant: Formaldehyde
+Orange,1.56,Pollutant: Acetaldehyde
+Orange,0.55,Pollutant: Carbon tetrachloride
+Orange,0.07,"Pollutant: 1,3-butadiene"
+Placer,0.51,Pollutant: Benzene
+Placer,2.23,Pollutant: Formaldehyde
+Placer,2.08,Pollutant: Acetaldehyde
+Placer,0.55,Pollutant: Carbon tetrachloride
+Placer,0.05,"Pollutant: 1,3-butadiene"
+Plumas,0.12,Pollutant: Benzene
+Plumas,1.2,Pollutant: Formaldehyde
+Plumas,1.47,Pollutant: Acetaldehyde
+Plumas,0.55,Pollutant: Carbon tetrachloride
+Plumas,0.01,"Pollutant: 1,3-butadiene"
+Riverside,0.42,Pollutant: Benzene
+Riverside,1.9,Pollutant: Formaldehyde
+Riverside,1.81,Pollutant: Acetaldehyde
+Riverside,0.55,Pollutant: Carbon tetrachloride
+Riverside,0.03,"Pollutant: 1,3-butadiene"
+Sacramento,0.8,Pollutant: Benzene
+Sacramento,2.33,Pollutant: Formaldehyde
+Sacramento,2.02,Pollutant: Acetaldehyde
+Sacramento,0.55,Pollutant: Carbon tetrachloride
+Sacramento,0.09,"Pollutant: 1,3-butadiene"
+San Benito,0.41,Pollutant: Benzene
+San Benito,1.24,Pollutant: Formaldehyde
+San Benito,1.13,Pollutant: Acetaldehyde
+San Benito,0.55,Pollutant: Carbon tetrachloride
+San Benito,0.02,"Pollutant: 1,3-butadiene"
+San Bernardino,0.48,Pollutant: Benzene
+San Bernardino,1.77,Pollutant: Formaldehyde
+San Bernardino,1.73,Pollutant: Acetaldehyde
+San Bernardino,0.55,Pollutant: Carbon tetrachloride
+San Bernardino,0.03,"Pollutant: 1,3-butadiene"
+San Diego,0.82,Pollutant: Benzene
+San Diego,1.57,Pollutant: Formaldehyde
+San Diego,1.5,Pollutant: Acetaldehyde
+San Diego,0.55,Pollutant: Carbon tetrachloride
+San Diego,0.05,"Pollutant: 1,3-butadiene"
+San Francisco,1.51,Pollutant: Benzene
+San Francisco,1.69,Pollutant: Formaldehyde
+San Francisco,1.4,Pollutant: Acetaldehyde
+San Francisco,0.55,Pollutant: Carbon tetrachloride
+San Francisco,0.15,"Pollutant: 1,3-butadiene"
+San Joaquin,0.6,Pollutant: Benzene
+San Joaquin,1.76,Pollutant: Formaldehyde
+San Joaquin,1.65,Pollutant: Acetaldehyde
+San Joaquin,0.55,Pollutant: Carbon tetrachloride
+San Joaquin,0.05,"Pollutant: 1,3-butadiene"
+San Luis Obispo,0.29,Pollutant: Benzene
+San Luis Obispo,1.22,Pollutant: Formaldehyde
+San Luis Obispo,1.13,Pollutant: Acetaldehyde
+San Luis Obispo,0.55,Pollutant: Carbon tetrachloride
+San Luis Obispo,0.02,"Pollutant: 1,3-butadiene"
+San Mateo,0.53,Pollutant: Benzene
+San Mateo,1.02,Pollutant: Formaldehyde
+San Mateo,0.96,Pollutant: Acetaldehyde
+San Mateo,0.55,Pollutant: Carbon tetrachloride
+San Mateo,0.06,"Pollutant: 1,3-butadiene"
+Santa Barbara,0.37,Pollutant: Benzene
+Santa Barbara,1.36,Pollutant: Formaldehyde
+Santa Barbara,1.19,Pollutant: Acetaldehyde
+Santa Barbara,0.55,Pollutant: Carbon tetrachloride
+Santa Barbara,0.03,"Pollutant: 1,3-butadiene"
+Santa Clara,0.67,Pollutant: Benzene
+Santa Clara,1.49,Pollutant: Formaldehyde
+Santa Clara,1.37,Pollutant: Acetaldehyde
+Santa Clara,0.55,Pollutant: Carbon tetrachloride
+Santa Clara,0.06,"Pollutant: 1,3-butadiene"
+Santa Cruz,0.44,Pollutant: Benzene
+Santa Cruz,1.25,Pollutant: Formaldehyde
+Santa Cruz,1.2,Pollutant: Acetaldehyde
+Santa Cruz,0.55,Pollutant: Carbon tetrachloride
+Santa Cruz,0.04,"Pollutant: 1,3-butadiene"
+Shasta,0.38,Pollutant: Benzene
+Shasta,1.91,Pollutant: Formaldehyde
+Shasta,1.96,Pollutant: Acetaldehyde
+Shasta,0.55,Pollutant: Carbon tetrachloride
+Shasta,0.03,"Pollutant: 1,3-butadiene"
+Sierra,0.12,Pollutant: Benzene
+Sierra,1.01,Pollutant: Formaldehyde
+Sierra,1.26,Pollutant: Acetaldehyde
+Sierra,0.55,Pollutant: Carbon tetrachloride
+Sierra,0.01,"Pollutant: 1,3-butadiene"
+Siskiyou,0.19,Pollutant: Benzene
+Siskiyou,0.97,Pollutant: Formaldehyde
+Siskiyou,1.19,Pollutant: Acetaldehyde
+Siskiyou,0.55,Pollutant: Carbon tetrachloride
+Siskiyou,0.01,"Pollutant: 1,3-butadiene"
+Solano,0.48,Pollutant: Benzene
+Solano,1.37,Pollutant: Formaldehyde
+Solano,1.31,Pollutant: Acetaldehyde
+Solano,0.55,Pollutant: Carbon tetrachloride
+Solano,0.04,"Pollutant: 1,3-butadiene"
+Sonoma,0.46,Pollutant: Benzene
+Sonoma,1.29,Pollutant: Formaldehyde
+Sonoma,1.34,Pollutant: Acetaldehyde
+Sonoma,0.55,Pollutant: Carbon tetrachloride
+Sonoma,0.04,"Pollutant: 1,3-butadiene"
+Stanislaus,0.55,Pollutant: Benzene
+Stanislaus,1.92,Pollutant: Formaldehyde
+Stanislaus,1.82,Pollutant: Acetaldehyde
+Stanislaus,0.55,Pollutant: Carbon tetrachloride
+Stanislaus,0.04,"Pollutant: 1,3-butadiene"
+Sutter,0.58,Pollutant: Benzene
+Sutter,2.43,Pollutant: Formaldehyde
+Sutter,2.29,Pollutant: Acetaldehyde
+Sutter,0.55,Pollutant: Carbon tetrachloride
+Sutter,0.06,"Pollutant: 1,3-butadiene"
+Tehama,0.3,Pollutant: Benzene
+Tehama,1.92,Pollutant: Formaldehyde
+Tehama,2.04,Pollutant: Acetaldehyde
+Tehama,0.55,Pollutant: Carbon tetrachloride
+Tehama,0.02,"Pollutant: 1,3-butadiene"
+Trinity,0.1,Pollutant: Benzene
+Trinity,1.01,Pollutant: Formaldehyde
+Trinity,1.28,Pollutant: Acetaldehyde
+Trinity,0.55,Pollutant: Carbon tetrachloride
+Trinity,0.01,"Pollutant: 1,3-butadiene"
+Tulare,0.45,Pollutant: Benzene
+Tulare,2.39,Pollutant: Formaldehyde
+Tulare,2.36,Pollutant: Acetaldehyde
+Tulare,0.55,Pollutant: Carbon tetrachloride
+Tulare,0.03,"Pollutant: 1,3-butadiene"
+Tuolumne,0.23,Pollutant: Benzene
+Tuolumne,1.79,Pollutant: Formaldehyde
+Tuolumne,1.78,Pollutant: Acetaldehyde
+Tuolumne,0.55,Pollutant: Carbon tetrachloride
+Tuolumne,0.02,"Pollutant: 1,3-butadiene"
+Ventura,0.41,Pollutant: Benzene
+Ventura,1.55,Pollutant: Formaldehyde
+Ventura,1.43,Pollutant: Acetaldehyde
+Ventura,0.55,Pollutant: Carbon tetrachloride
+Ventura,0.03,"Pollutant: 1,3-butadiene"
+Yolo,0.59,Pollutant: Benzene
+Yolo,1.89,Pollutant: Formaldehyde
+Yolo,1.82,Pollutant: Acetaldehyde
+Yolo,0.55,Pollutant: Carbon tetrachloride
+Yolo,0.05,"Pollutant: 1,3-butadiene"
+Yuba,0.45,Pollutant: Benzene
+Yuba,2.37,Pollutant: Formaldehyde
+Yuba,2.28,Pollutant: Acetaldehyde
+Yuba,0.55,Pollutant: Carbon tetrachloride
+Yuba,0.04,"Pollutant: 1,3-butadiene"
