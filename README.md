@@ -82,3 +82,9 @@ used for this analysis:<br>
 
     - County<br>
     - Max Voltage
+
+- <h4 align="left">Zip Code Database</h4>
+    https://www.unitedstateszipcodes.org/zip-code-database/
+
+    - Zip Code<br>
+    - County 
