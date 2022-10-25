@@ -79,8 +79,9 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 ### Issues encountered:
 
-	-  We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABLE", "DROP COLUMN"
-	-  We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
+-  We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABLE", "DROP COLUMN"
+	
+-  We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
 
 ### Resources used:
 
