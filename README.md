@@ -130,6 +130,8 @@ Mel and I further cleaned and combine out datasets to create our database.
 	
 -  We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
 
+-  When Mergeing the datasets in SQL we continously had to delete added County columns
+
 ### Resources used:
 
 - https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
