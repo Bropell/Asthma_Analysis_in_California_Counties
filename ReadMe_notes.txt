@@ -44,7 +44,7 @@ Mel and I further cleaned and combine out datasets to create our database.
  
 	- Removed States that were not CA.
 
-	- Found and added a Zip code database as EV Charging Station only has zipcodes by not County information and merged the two sets together for the Zip-Code Dataset to fill in the Counties. 
+	- Found and added a Zip code database as EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties.  
 
 	- Created Columns for Private, Public and Total EV Chargers available inorder to groupby County and merge.
 
@@ -79,7 +79,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 ### Issues encountered:
 
-	- We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABE", "DROP COLUMN"
+	- We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABLE", "DROP COLUMN"
 	- We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
 
 ### Resources used:
@@ -88,7 +88,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 - https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
 
-- Zipcode Dataset:
+- Zipcode Dataset: Added as  EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties. 
 
 https://www.unitedstateszipcodes.org/zip-code-database/
 
