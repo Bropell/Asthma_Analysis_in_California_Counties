@@ -16,7 +16,7 @@ Mel and I further cleaned and combine out datasets to create our database.
  
 	- Imported the data base to SQL and joined on the "County" column.
 
--Demographics data:
+- Demographics data:
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -81,3 +81,15 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABLE", "DROP COLUMN"
 	- We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
+
+### Resources used:
+
+- https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
+
+- https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
+
+- Zipcode Dataset: Added as  EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties. 
+
+https://www.unitedstateszipcodes.org/zip-code-database/
+
+**Database and changes to Raw Data were pushed directly to the main branch for convenience 
