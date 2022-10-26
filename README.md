@@ -19,6 +19,7 @@ used for this analysis:<br>
 - EV Charging Stations
 - Clean Energy Generation (GwH)
 - California Electric Substations
+- Zip Code Database
 
 ## Communication Protocols
 - Brandon Ropell: Repository maintenance, help others as needed (Square Role)
