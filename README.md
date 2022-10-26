@@ -83,7 +83,8 @@ used for this analysis:<br>
     - Registered EV Count
 
 - <h4 align="left">California Electric Substations</h4>
-
+    https://data.cnra.ca.gov/dataset/california-electric-substations1/resource/8077a564-ea00-49b7-8ca2-304f4dc16604 
+    
     - County<br>
     - Max Voltage
 
