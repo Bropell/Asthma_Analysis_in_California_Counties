@@ -47,7 +47,7 @@ used for this analysis:<br>
     https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 
     - County<br>
-    - Current Prevalence converted to 1 (over 8.8%) or 0 (under 8.8%)
+    - Current Prevalence converted to True (over 8.8%) or False (under 8.8%)
 
 - <h4 align="left">Air Pollution</h4>
     https://ephtracking.cdc.gov/DataExplorer/?c=11
