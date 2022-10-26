@@ -62,7 +62,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Filled in missing values from 2015-2016 years with values form 2017- 2018.
  
-	- Replaced Asthma Prevelance column with Target values which assigned 1 (above) or 0 (below) for if they were above the 8.8% state average prevelance.
+	- Replaced Asthma Prevelance column with Target values which assigned 1 (True) or 0 (False) for if they were above the 8.8% state average prevelance.
  
 	- Imported the data base to SQL and joined on the "County" column.
 
