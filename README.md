@@ -17,11 +17,8 @@ used for this analysis:<br>
 - Demographics Data
 - Registered EVs
 - EV Charging Stations
-- Clean Energy Generation (GwH)<br>
-
-As seen from the types of datasets being used, there is a focus on clean energy and certain environmental factors that
-could affect clean energy efforts. The motivation for the analysis is to determine the environmental benefits as well as 
-the public health benefits in relation to these specific clean energy projects.
+- Clean Energy Generation (GwH)
+- California Electric Substations
 
 ## Communication Protocols
 - Brandon Ropell: Repository maintenance, help others as needed (Square Role)
@@ -33,20 +30,61 @@ the public health benefits in relation to these specific clean energy projects.
 - <h4 align="left">Cali Clean Energy Generation</h4>
     https://cecgis-caenergy.opendata.arcgis.com/documents/CAEnergy::2019-utility-scale-renewable-electrical-generation-totals-by-county-energy-produced/explore 
 
+    - County<br>
+    - Biomass<br>
+    - Small Hydro<br>
+    - Geothermal<br>
+    - Solar Thermal<br>
+    - Solar Photovoltaic<br>
+    - Wind<br>
+    - Total County Features
+
 - <h4 align="left">Demographics</h4>
     https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
 
 - <h4 align="left">Asthma Rates</h4>
     https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
 
+    - County<br>
+    - Current Prevalence converted to 1 (over 8.8%) or 0 (under 8.8%)
+
 - <h4 align="left">Air Pollution</h4>
     https://ephtracking.cdc.gov/DataExplorer/?c=11
 
+    - County<br>
+    - Pollutant: 1,3-butadiene<br>
+    - Pollutant: Acetaldehyde<br>
+    - Pollutant: Benzene<br>
+    - Pollutant: Carbon Tetrachloride<br>
+    - Pollutant: Formaldehyde
+
 - <h4 align="left">EV Charging Stations</h4>
     https://www.kaggle.com/datasets/prasertk/electric-vehicle-charging-stations-in-usa
+    
+    - County<br> 
+    - Total EV Chargers<br>
+    - Private EV Chargers<br>
+    - Public EV Chargers
 
 - <h4 align="left">Wildfire Data</h4>
     https://www.kaggle.com/datasets/ananthu017/california-wildfire-incidents-20132020
 
+    - Counties<br>
+    - Acres Burned
+
 - <h4 align="left">Registered EVs</h4>
     https://www.atlasevhub.com/materials/state-ev-registration-data/#data
+    
+    - County<br> 
+    - Registered EV Count
+
+- <h4 align="left">California Electric Substations</h4>
+
+    - County<br>
+    - Max Voltage
+
+- <h4 align="left">Zip Code Database</h4>
+    https://www.unitedstateszipcodes.org/zip-code-database/
+
+    - Zip Code<br>
+    - County 
