@@ -4,6 +4,9 @@
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Resources/Asthma_banner.png"/>
 </p>
 
+<h4 align="left">Presentation</h4>
+https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.p
+
 ## Project Overview
 The purpose of this project was to develop a machine learning model that will try and help determine what features, 
 if any have a correlation with asthma rates in California counties. Based on the relationships discovered between 
