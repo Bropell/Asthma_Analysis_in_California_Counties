@@ -6,6 +6,9 @@
 
 Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this analysis, we would like to propose how clean energy policies can be beneficial both enviromentally and for public health. 
 
+
+## Week 1
+
 This week started with the initial search for dataset, as listed below. Firstly, we found datasets for the California demographics and asthma rated. Then, searched for datasets with California counties as the primary connection, to account for the external factors we were interested in exploring. 
 
   •	Asthma Rates
