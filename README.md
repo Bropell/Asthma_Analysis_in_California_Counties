@@ -52,11 +52,11 @@ https://ephtracking.cdc.gov/DataExplorer/?c=11
 
 Mel and I further cleaned and combine out datasets to create our database. 
 
-- Air Polutants datae: 
+#### Air Polutants datae: 
 
 	- Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
 
-- Asthma by County data: 
+#### Asthma by County data: 
 
 	- Removed unneccessary columns from the dataset.
 
@@ -66,7 +66,7 @@ Mel and I further cleaned and combine out datasets to create our database.
  
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Demographics data:
+#### Demographics data:
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -80,7 +80,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Electric Substation:
+#### Electric Substation:
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -90,7 +90,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Ev_charging station:
+#### Ev_charging station:
  
 	- Removed States that were not CA.
 
@@ -102,7 +102,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Wildfires:
+#### Wildfires:
 
 	- Removed non-California states [Nevada, Mexico, and Oregon].
 
@@ -112,7 +112,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Imported the data base to SQL and joined on the "County" column.
 
-- EV_Registration
+#### EV_Registration
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -150,4 +150,6 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 
 ## Week 3: Outlining Our Dashboard
 
-Google Slide links: https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_20
+#### Google Slide links:
+
+https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_20
