@@ -48,6 +48,10 @@ from join5 as j
 inner join registered_evs as revs
 on trim(j."COUNTY") = trim(revs."County");
 
+alter table join6 drop column "COUNTY";
+
+--export to csv afte all of the above is run
+
 select * from demographic_data;
 select * from join1;
 select * from join2;
