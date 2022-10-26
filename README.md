@@ -150,4 +150,4 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 
 ## Week 3: Outlining Our Dashboard
 
-
+Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_15
