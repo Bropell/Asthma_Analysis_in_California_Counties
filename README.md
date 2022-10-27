@@ -4,7 +4,7 @@
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Resources/Asthma_banner.png"/>
 </p>
 
-<h4 align="left">Presentation</h4>
+<h4 align="left">Google Slides Presentation</h4>
 https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.p
 
 ## Project Overview
