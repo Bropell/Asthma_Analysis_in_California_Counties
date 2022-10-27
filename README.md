@@ -148,6 +148,6 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 **Database and changes to Raw Data were pushed directly to the main branch for convenience 
 
 
-## Week 3: Outlining Our Dashboard
+### Outlining Our Dashboard
 
 Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_15
