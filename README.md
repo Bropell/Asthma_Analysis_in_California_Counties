@@ -9,13 +9,17 @@ All team members will have input into the process to optimize the model, providi
 main challenge here is the abundance of data and ensuring how well predictions can be made regarding areas that are at a much higher risk 
 of having children being born with asthma or developing asthma in adolescence.
 
-In the process of running a balanced forest tree model the results solely depend on the values from the matrix. An example of the balanced forest tree being run is as follows:
+In the process of running a balanced forest tree model the results solely depend on the values from the matrix.  An example of the balanced forest tree being run is as follows:
 
 ![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/forest.png)
 
 The second model ran was a neural learning model which acheived maximum accuracy in very few epochs. It was run over 100 epochs and acheived 1.00 accuracy in approximately 14 epochs. Results are as follows:
 
 ![Neural](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png)
+
+Recommendations for enhancing the models would be 
+-Enlarge the dataset that is used.
+-Change the activation method of the neural model.
 
 ## Endgame
 
