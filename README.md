@@ -6,6 +6,9 @@
 
 Our team has decided to explore if external environmental factors have any impact on asthma in California and its counties. From this analysis, we would like to propose how clean energy policies can be beneficial both enviromentally and for public health. 
 
+
+## Week 1: Conceptualization 
+
 This week started with the initial search for dataset, as listed below. Firstly, we found datasets for the California demographics and asthma rated. Then, searched for datasets with California counties as the primary connection, to account for the external factors we were interested in exploring. 
 
   •	Asthma Rates
@@ -49,21 +52,21 @@ https://ephtracking.cdc.gov/DataExplorer/?c=11
 
 Mel and I further cleaned and combine out datasets to create our database. 
 
-- Air Polutants datae: 
+ - Air Polutants datae: 
 
 	- Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
 
-- Asthma by County data: 
+ - Asthma by County data: 
 
 	- Removed unneccessary columns from the dataset.
 
 	- Filled in missing values from 2015-2016 years with values form 2017- 2018.
  
-	- Replaced Asthma Prevelance column with Target values which assigned 1 (above) or 0 (below) for if they were above the 8.8% state average prevelance.
+	- Replaced Asthma Prevelance column with Target values which assigned 1 (True) or 0 (False) for if they were above the 8.8% state average prevelance.
  
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Demographics data:
+ - Demographics data:
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -77,7 +80,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 	- Imported the data base to SQL and joined on the "County" column.
 
-- Electric Substation:
+ - Electric Substation:
 
 	- Removed the word "County" from the County column values so the data could properly merge in SQL.
 
@@ -86,7 +89,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 	- Agreigated County column.
 
 	- Imported the data base to SQL and joined on the "County" column.
-
+	- 
 - Ev_charging station:
  
 	- Removed States that were not CA.
@@ -130,6 +133,8 @@ Mel and I further cleaned and combine out datasets to create our database.
 	
 -  We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns. 
 
+-  When Mergeing the datasets in SQL we continously had to delete added County columns
+
 ### Resources used:
 
 - https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
@@ -141,3 +146,8 @@ Mel and I further cleaned and combine out datasets to create our database.
 https://www.unitedstateszipcodes.org/zip-code-database/
 
 **Database and changes to Raw Data were pushed directly to the main branch for convenience 
+
+
+### Outlining Our Dashboard
+
+Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_15
