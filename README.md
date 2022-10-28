@@ -34,11 +34,13 @@ Focusing on the Counties in order to join. Using for population count
 
 https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
 
+
 #### Asthma Rates
 
 Focusing on the Counties in order to join. This dataset is key as we derive the asthma rates and prevelance in California. 
 
 https://data.world/chhs/01f456c3-db34-44f2-a52c-6811bef8ba6d
+
 
 #### Air Pollution
 
@@ -89,7 +91,7 @@ Mel and I further cleaned and combine out datasets to create our database.
 	- Agreigated County column.
 
 	- Imported the data base to SQL and joined on the "County" column.
-	- 
+	
 - Ev_charging station:
  
 	- Removed States that were not CA.
