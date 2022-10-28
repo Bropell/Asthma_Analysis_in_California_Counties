@@ -11,11 +11,11 @@ of having children being born with asthma or developing asthma in adolescence.
 
 In the process of running a balanced forest tree model the results solely depend on the values from the matrix. An example of the balanced forest tree being run is as follows:
 
-![Flowchart](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/flowchart_MachineLearning.png)
+![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/forest.png)
 
 The second model ran was a neural learning model which acheived maximum accuracy in very few epochs. It was run over 100 epochs and acheived 1.00 accuracy in approximately 14 epochs. Results are as follows:
 
-![Flowchart](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/flowchart_MachineLearning.png)
+![Neural](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png)
 
 ## Endgame
 
