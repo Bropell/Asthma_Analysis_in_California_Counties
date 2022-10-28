@@ -33,8 +33,9 @@ used for this analysis:<br>
 ## Technologies
 | Technology | Emblem |
 | ---------- | ------ |
-| Python     | image.png |
+| Python     | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)|
 | Pandas     | image.png |
+| PostgreSQL | ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) |
 
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
