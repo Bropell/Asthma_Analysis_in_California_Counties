@@ -30,6 +30,12 @@ used for this analysis:<br>
 - Mel Phillips/Christina Ocampo: Database maintenance and data acquisition (Circle Role) 
 - All members: Technology choices for each step of the project (X Role)
 
+## Technologies
+| Technology | Emblem |
+| ---------- | ------ |
+| Python     | image.png |
+| Pandas     | image.png |
+
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
     https://cecgis-caenergy.opendata.arcgis.com/documents/CAEnergy::2019-utility-scale-renewable-electrical-generation-totals-by-county-energy-produced/explore 
