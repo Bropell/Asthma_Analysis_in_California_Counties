@@ -9,6 +9,11 @@ All team members will have input into the process to optimize the model, providi
 main challenge here is the abundance of data and ensuring how well predictions can be made regarding areas that are at a much higher risk 
 of having children being born with asthma or developing asthma in adolescence.
 
+The datasets were split into 2 groups the feature and the target.
+The target being if asthma was over 8.8% and the remaining columns are the features including demographics and  air pollutants being some of the remaining columns.
+
+The two models decided upon are the balanced random forest classification model which is used on categorical Boolean type data like we have devised from asthma prevalence and neural learning because of its complexity to learn from the data to achieve better results. Both of these models can take categorical data which is encoded into their own perspective columns.
+
 In the process of running a balanced forest tree model the results solely depend on the values from the matrix.  An example of the balanced forest tree being run is as follows:
 
 ![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/forest.png)
