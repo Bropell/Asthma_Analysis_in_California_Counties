@@ -31,7 +31,7 @@ Here is the outline for our database:
 Christina and I worked together to clean and combine the datasets for our database, using both Python and SQL.
 
 • Air Polutants data:
-
+    
     Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
 
 • Asthma by County data:
