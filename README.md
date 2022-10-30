@@ -30,77 +30,77 @@ Here is the outline for our database:
 
 Christina and I worked together to clean and combine the datasets for our database, using both Python and SQL.
 
-Air Polutants datae:
+• Air Polutants data:
 
-Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
+    Created a pivot table to clean the data and rearrange the columns/rows to use Counties as the index.
 
-Asthma by County data:
+• Asthma by County data:
 
-Removed unneccessary columns from the dataset.
+    Removed unneccessary columns from the dataset.
 
-Filled in missing values from 2015-2016 years with values form 2017- 2018.
+    Filled in missing values from 2015-2016 years with values form 2017- 2018.
 
-Replaced Asthma Prevelance column with Target values which assigned 1 (True) or 0 (False) for if they were above the 8.8% state average prevelance.
+    Replaced Asthma Prevelance column with Target values which assigned 1 (True) or 0 (False) for if they were above the 8.8% state average prevelance.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
-Demographics data:
+• Demographics data:
 
-Removed the word "County" from the County column values so the data could properly merge in SQL.
+    Removed the word "County" from the County column values so the data could properly merge in SQL.
 
-Removed unneccessary columns from the dataset.
+    Removed unneccessary columns from the dataset.
 
-Grouped by counties to remove duplicates and get the sum().
+    Grouped by counties to remove duplicates and get the sum().
 
-Learned the "TRIM" funtion to remove spaces inorder for the columns to merge properly.
+    Learned the "TRIM" funtion to remove spaces inorder for the columns to merge properly.
 
-Dropped duplicate County Column created by merge.
+    Dropped duplicate County Column created by merge.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
-Electric Substation:
+• Electric Substation:
 
-Removed the word "County" from the County column values so the data could properly merge in SQL.
+    Removed the word "County" from the County column values so the data could properly merge in SQL.
 
-Removed unneccessary columns from the dataset.
+    Removed unneccessary columns from the dataset.
 
-Agreigated County column.
+    Agreigated County column.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
-Ev_charging station:
+• Ev_charging station:
 
-Removed States that were not CA.
+    Removed States that were not CA.
 
-Found and added a Zip code database as EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties.
+    Found and added a Zip code database as EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties.
 
-Created Columns for Private, Public and Total EV Chargers available inorder to groupby County and merge.
+    Created Columns for Private, Public and Total EV Chargers available inorder to groupby County and merge.
 
-Added "Glenn" County as it was dropped due to no chargers.
+    Added "Glenn" County as it was dropped due to no chargers.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
-Wildfires:
+• Wildfires:
 
-Removed non-California states [Nevada, Mexico, and Oregon].
+    Removed non-California states [Nevada, Mexico, and Oregon].
 
-Aggrigated the Acres burned by County.
+    Aggrigated the Acres burned by County.
 
-Added "Imperial" and "San Fransisco" County as it was dropped due to no wildfires.
+    Added "Imperial" and "San Fransisco" County as it was dropped due to no wildfires.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
-EV_Registration
+• EV_Registration
 
-Removed the word "County" from the County column values so the data could properly merge in SQL.
+    Removed the word "County" from the County column values so the data could properly merge in SQL.
 
-Renamed Columns for clarification.
+    Renamed Columns for clarification.
 
-Dropped "Unknown" Column.
+    Dropped "Unknown" Column.
 
-Dropped duplicate County Column created by merge.
+    Dropped duplicate County Column created by merge.
 
-Imported the data base to SQL and joined on the "County" column.
+    Imported the data base to SQL and joined on the "County" column.
 
 ### Issues encountered:
 
@@ -112,15 +112,17 @@ When Mergeing the datasets in SQL we continously had to delete added County colu
 
 ### Resources used:
 
-https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
+    https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
 
-https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
+    https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
 
 Zipcode Dataset: Added as EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties.
 
-https://www.unitedstateszipcodes.org/zip-code-database/
+    https://www.unitedstateszipcodes.org/zip-code-database/
 
 **Database and changes to Raw Data were pushed directly to the main branch for convenience
+
+## Week 3: Creating the Dashboard
 
 Outlining Our Dashboard
 Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_15
