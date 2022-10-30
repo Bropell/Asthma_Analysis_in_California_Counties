@@ -26,7 +26,8 @@ Here is the outline for our database:
 
 • Air pollutants
 
-Week 2: Cleaning and Creating the Database
+## Week 2: Cleaning and Creating the Database
+
 Christina and I worked together to clean and combine the datasets for our database, using both Python and SQL.
 
 Air Polutants datae:
@@ -101,14 +102,16 @@ Dropped duplicate County Column created by merge.
 
 Imported the data base to SQL and joined on the "County" column.
 
-Issues encountered:
+### Issues encountered:
+
 We ran into issue of "County" column duplicating as we merge. We rectified by removing the added colum by using "ALTER TABLE", "DROP COLUMN"
 
 We got an error due to spaces in the dataset and used the "TRIM" funtion in order to properly merge columns.
 
 When Mergeing the datasets in SQL we continously had to delete added County columns
 
-Resources used:
+### Resources used:
+
 https://stackoverflow.com/questions/54497059/pandas-filling-column-in-dataset-with-data-from-another-dataset-based-on-matchi
 
 https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
