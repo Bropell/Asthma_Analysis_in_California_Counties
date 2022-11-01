@@ -24,12 +24,6 @@ used for this analysis:<br>
 - California Electric Substations
 - Zip Code Database
 
-## Communication Protocols
-- Brandon Ropell: Repository maintenance, help others as needed (Square Role)
-- Andrew Stein: Machine learning model (Triangle Role)
-- Mel Phillips/Christina Ocampo: Database maintenance and data acquisition (Circle Role) 
-- All members: Technology choices for each step of the project (X Role)
-
 ## Technologies
 | Technology |  |
 | ---------- | ------ |
