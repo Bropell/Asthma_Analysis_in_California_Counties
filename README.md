@@ -55,7 +55,7 @@ The first model, BalancedRandomForestClassifier would give an accuracy score of 
 
 In the process of running a balanced forest tree model the results solely depend on the values from the matrix.  An example of the balanced forest tree being run is as follows:
 
-![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/forest.png)
+![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png)
 
 The second model ran was a neural learning model which acheived maximum accuracy in very few epochs. It was run over 100 epochs and acheived 1.00 accuracy in approximately 14 epochs. Results are as follows:
 
