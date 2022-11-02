@@ -47,7 +47,7 @@ There will be no changes made. The models chosen work appropriately.
 
 The model is trained using the train_test_split function from the sklearn kit which is then fit using the X_train, 
 and y_train variables. The neural learning model uses the same function but uses StandardScaler to completely scale 
-and train the data to properly be used for the neural learning model.
+and train the data to properly be used in optimization of the neural learning model.
 
 ### Description of current accuracy:
 
@@ -57,7 +57,7 @@ The first model, BalancedRandomForestClassifier would give an accuracy score of 
 
 The second model was a neural model which produces an accuracy score of 1.0 in approximately 10 epochs of 100. 
 
-![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png)
+![Neural](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png)
 
 
 
