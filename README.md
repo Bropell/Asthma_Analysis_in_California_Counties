@@ -150,7 +150,7 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 **Database and changes to Raw Data were pushed directly to the main branch for convenience 
 
 
-## Week Three: Prepping our Presentation
+## Week 3: Prepping our Presentation
 
 Finalizing our Presentation structure and adding key elements for our presentation.
 
