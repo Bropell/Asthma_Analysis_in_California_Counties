@@ -11,7 +11,7 @@ of having children being born with asthma or developing asthma in adolescence.
 
 ### Data preprocessing:
 
-Description of feature and feature selection:
+### Description of feature and feature selection:
 
 The Features of our models are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
        'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
