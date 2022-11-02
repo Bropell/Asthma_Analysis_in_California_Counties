@@ -62,6 +62,7 @@ The second model was a neural model which produces an accuracy score of 1.0 in a
 
 
 Recommendations for enhancing the models would be 
+
 -Enlarge the dataset that is used.
 
 -Change the activation method of the neural model.
