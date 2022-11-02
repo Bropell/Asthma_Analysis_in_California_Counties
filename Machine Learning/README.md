@@ -1,7 +1,7 @@
 # Asthma_Analysis_in_California_Counties
 ## Machine Learning
 
-The general flow of the machine learning process will be as follows:
+The general flow of the machine learning process:
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/flowchart_MachineLearning.png"/>
@@ -20,7 +20,7 @@ The generalized idea is shown in the image below:
 </p><br>
 
 ## Deep Neural Network Classifier
-Testing
+The deep learning model uses an input layer as well as several hidden layers to feed the output layer. An example image of this model is shown below: 
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/Deep%20Neural%20Network.png"/>
