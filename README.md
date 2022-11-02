@@ -66,7 +66,7 @@ Recommendations for enhancing the models would be
 
 -Change the activation method of the neural model.
 
-## Endgame
+## Endgame (Not acheived)
 
 The end result of the forest classifer will attempt to visualize the tree assuming the results provide sufficient accuracy to do so. 
 The generalized idea is shown in the pictures below:
