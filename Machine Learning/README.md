@@ -14,7 +14,7 @@ of having children being born with asthma or developing asthma in adolescence.
 ## BalancedRandomForestClassifier
 
 The end result of the forest classifer will attempt to visualize the tree assuming the results provide sufficient accuracy to do so. 
-The generalized idea is shown in the pictures below:
+The generalized idea is shown in the image below:
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/basic%20tree%20sample.png"/>
