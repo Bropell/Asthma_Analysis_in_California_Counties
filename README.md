@@ -69,7 +69,7 @@ used for this analysis:<br>
 - <h4 align="left">EV Charging Stations</h4>
     https://www.kaggle.com/datasets/prasertk/electric-vehicle-charging-stations-in-usa
     
-    - County<br> 
+    - Zip Code<br> 
     - Total EV Chargers<br>
     - Private EV Chargers<br>
     - Public EV Chargers
