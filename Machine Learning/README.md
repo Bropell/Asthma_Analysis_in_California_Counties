@@ -12,7 +12,6 @@ main challenge here is the lack of abundance of data and ensuring how well predi
 of having children being born with asthma or developing asthma in adolescence.
 
 ## BalancedRandomForestClassifier
-
 The end result of the forest classifer will attempt to visualize the tree assuming the results provide sufficient accuracy to do so. 
 The generalized idea is shown in the image below:
 
@@ -21,4 +20,8 @@ The generalized idea is shown in the image below:
 </p><br>
 
 ## Deep Neural Network Classifier
+Testing
 
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/Deep%20Neural%20Network.png"/>
+</p><br>
