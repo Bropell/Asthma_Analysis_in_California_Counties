@@ -13,6 +13,21 @@ that are at a much higher risk of having children being born with asthma or deve
 
 ### Data preprocessing:
 
+There are 7 datasets that the following was done on:
+
+Reduced the duplicates in the datasets
+
+Reduced the null values in the datasets
+
+Created a TRUE/FALSE column for machine learning use based on Asthma Prevalence
+
+Created consistencies in datasets (ZIPCODE and County) to ensure merging goes as planned
+
+Created mostly numerical values in the columns for smooth transition into machine learning
+
+Made sure everything was merged properly into sql and then successfully exported into a csv 
+
+
 ### Description of feature and feature selection:
 
 The Features of our models are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
