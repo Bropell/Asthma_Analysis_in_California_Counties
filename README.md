@@ -7,6 +7,9 @@
 <h4 align="left">Google Slides Presentation</h4>
 https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.p
 
+<h4 align="left">Tableau Dashboard</h4>
+[Tableau Link Here!!!]
+
 ## Project Overview
 The purpose of this project was to develop a machine learning model that will try and help determine what features, 
 if any have a correlation with asthma rates in California counties. Based on the relationships discovered between 
@@ -42,7 +45,10 @@ data may also be downloaded and/or previewed in the resources folder.
 ### 2) Cleaning Data and Exporting to PostgreSQL Database
 Data was cleaned using Python scripts and Pandas in Jupyter Notebooks, then exported to a PostgreSQL database. The cleaned data
 and scripts are provided within the resources folder. The scripts contain instructions on importing the cleaned data into the 
-database in the last cell of the notebooks.  
+database in the last cell of the notebooks.
+
+### 3) Machine Learning
+
 
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
