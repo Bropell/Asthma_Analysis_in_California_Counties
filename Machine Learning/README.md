@@ -12,11 +12,17 @@ of having children being born with asthma or developing asthma in adolescence.
 ### Data preprocessing:
 
 There are 7 datasets that the following was done on:
+
 Reduced the duplicates in the datasets
+
 Reduced the null values in the datasets
+
 Created a TRUE/FALSE column for machine learning use based on Asthma Prevalence
+
 Created consistencies in datasets (ZIPCODE and County) to ensure merging goes as planned
+
 Created mostly numerical values in the columns for smooth transition into machine learning
+
 Made sure everything was merged properly into sql and then successfully exported into a csv 
 
 
