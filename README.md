@@ -59,6 +59,10 @@ number of perceptrons within these layers and changing the activation function u
 and accuracy.
 
 ### 4) Visualizing the Data
+A Tableau Dashboard was made to visualize the data and elaborate on the findings. Several maps were generated with the same color scheme 
+for many different analysis features to try and uncover trends in the data. Based on the results, conclusions were drawn in regard to
+asthma prevalence in California counties and how it pertains to clean energy efforts. A Google slides presentation of all project components including the motivations and questions to be answered from the data was also made. Links to the slides and the Tableau dashboard are 
+provided at the top of this README.   
 
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
