@@ -39,16 +39,26 @@ used for this analysis:<br>
 
 ## Project Outline
 ### 1) Sourcing Clean Energy Data 
-Raw data sources were collected. The links and features for each dataset has been provided in the resources section below. Raw
-data may also be downloaded and/or previewed in the resources folder. 
+Raw data sources were collected. The links and features for each dataset has been provided in the Resources section below. Raw
+data may also be downloaded and/or previewed in the Resources folder. 
 
 ### 2) Cleaning Data and Exporting to PostgreSQL Database
 Data was cleaned using Python scripts and Pandas in Jupyter Notebooks, then exported to a PostgreSQL database. The cleaned data
-and scripts are provided within the resources folder. The scripts contain instructions on importing the cleaned data into the 
-database in the last cell of the notebooks.
+and commented coding scripts are provided within the Resources folder. The scripts also contain instructions on importing the 
+cleaned data into the database in the last cell of the notebooks. The Databases folder contains the Entity Relationship Diagram (ERD)
+for the datasets used as well as the schema to generate the tables. 
 
 ### 3) Machine Learning
+A flow chart image of the machine learning process is displayed in the README within the Machine Learning folder. This folder also 
+contains Jupyter Notebooks for both machine learning models used for this project. The scripts have commented code to show the user 
+what is being done in terms of creating features and target arrays, training the model, fitting the model and creating prediction 
+arrays. The balanced accuracy score, confusion matrix and imbalanced classification report are also generated to evaluate the efficacy 
+of the model. The neural network model script has additional cells defining the model, compiling the model, and prints the results from
+each epoch. The deep learning model can be modified by changing several parameters including adding/removing hidden layers, adjusting the 
+number of perceptrons within these layers and changing the activation function used at each layer. The final output shows the model loss 
+and accuracy.
 
+### 4) Visualizing the Data
 
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
