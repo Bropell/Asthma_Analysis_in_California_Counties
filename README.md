@@ -34,6 +34,16 @@ used for this analysis:<br>
 | Keras      | ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) |
 | Tensorflow | ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) |
 
+## Project Outline
+### 1) Sourcing Clean Energy Data 
+Raw data sources were collected. The links and features for each dataset has been provided in the resources section below. Raw
+data may also be downloaded and/or previewed in the resources folder. 
+
+### 2) Cleaning Data and Exporting to PostgreSQL Database
+Data was cleaned using Python scripts and Pandas in Jupyter Notebooks, then exported to a PostgreSQL database. The cleaned data
+and scripts are provided within the resources folder. The scripts contain instructions on importing the cleaned data into the 
+database in the last cell of the notebooks.  
+
 ## Resources
 - <h4 align="left">Cali Clean Energy Generation</h4>
     https://cecgis-caenergy.opendata.arcgis.com/documents/CAEnergy::2019-utility-scale-renewable-electrical-generation-totals-by-county-energy-produced/explore 
