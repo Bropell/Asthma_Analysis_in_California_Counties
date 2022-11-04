@@ -11,22 +11,14 @@ An attempt to optimize the model was made, trying to provide the highest target 
 main challenge here is the lack of abundance of data and ensuring how well predictions can be made regarding areas 
 that are at a much higher risk of having children being born with asthma or developing asthma in adolescence.
 
-### Data preprocessing:
-
-There are 7 datasets that the following was done on:
-
-Reduced the duplicates in the datasets
-
-Reduced the null values in the datasets
-
-Created a TRUE/FALSE column for machine learning use based on Asthma Prevalence
-
-Created consistencies in datasets (ZIPCODE and County) to ensure merging goes as planned
-
-Created mostly numerical values in the columns for smooth transition into machine learning
-
-Made sure everything was merged properly into sql and then successfully exported into a csv 
-
+### Data Preprocessing:
+There are 7 datasets where preprocessing was needed, here are the steps taken to clean the data:
+- Reduced the duplicates in the datasets
+- Reduced the null values in the datasets
+- Created a TRUE/FALSE column for machine learning use based on Asthma Prevalence
+- Created consistencies in datasets (ZIPCODE and County) to ensure merging goes as planned
+- Created mostly numerical values in the columns for smooth transition into machine learning
+- Made sure everything was merged properly into sql and then successfully exported into a csv 
 
 ### Description of feature and feature selection:
 
@@ -68,15 +60,17 @@ and train the data to properly be used in optimization of the neural learning mo
 
 ### Description of current accuracy:
 
-The first model, BalancedRandomForestClassifier would give an accuracy score of around .598.
+The first model used was the BalancedRandomForestClassifier and it gave an accuracy score of around .598.
 
-![Forest](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png)
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
+</p>
 
 The second model was a neural model which produces an accuracy score of 1.0 in approximately 10 epochs of 100. 
 
-![Neural](https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png)
-
-
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png"/>
+</p>
 
 Recommendations for enhancing the models would be 
 
