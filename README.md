@@ -155,3 +155,6 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 Finalizing our Presentation structure and adding key elements for our presentation.
 
 Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq40LpqYVSDRFU-2wVUdho/edit#slide=id.g1765ef05a45_0_15
+
+Adding Exploritory Data Analysis
+
