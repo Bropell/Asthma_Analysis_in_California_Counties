@@ -1,7 +1,7 @@
 # Asthma_Analysis_in_California_Counties
 ## Machine Learning
 
-The general flow of the machine learning process will be as follows:
+The general flow of the machine learning process is as follows:
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/flowchart_MachineLearning.png"/>
@@ -21,8 +21,7 @@ There are 7 datasets where preprocessing was needed, here are the steps taken to
 - Made sure everything was merged properly into sql and then successfully exported into a csv 
 
 ### Description of feature and feature selection:
-
-The Features of our models are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
+The model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
        'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
        'Pollutant: Formaldehyde', 'Target', 'TotalPop', 'Men', 'Women',
        'Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific', 'Income',
@@ -38,22 +37,29 @@ The features contain all of the merged columns minus the "Target_t" & "Target_f"
 The Target is defined as "Target_t" which we are looking for those Counties that had asthma prevalence over 8.8%
 
 ### Description of how data was split into training and test sets:
-
-The data was split into training and test sets using the train_test_split function from sklearn. 
-The random state was set to 1 for this process to keep the predictions consistent.
+The data was split into training and test sets using the train_test_split function from sklearn with a 70/30 split. The training set is 70% of the actual data
+where the test set is 30% of the actual data. The random state was set to 1 for this process to keep the predictions consistent.
 
 ### Explanation of model choice:
+Two models were chosen to see which one was more accurate for the type of data being used. The first model used was the BalancedRandomForestClassifier because its 
+use of boolean values provides an accurate score consistently. An example image of how this model works is shown below.
 
-2 models were chosen to see which one was more accurate.
-The first model used was BalancedRandomForestClassifier was chosen because its use of boolean values provides an accurate score consistently.
-The second model used was Neural learning which was chosen because it can learn over time to be near or completely accurate after X amount of epochs.
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/basic%20tree%20sample.png"/>
+</p>
+
+Alternatively, the second model used was Neural learning because it can learn over time to be at or
+near 100% accurate after some amount of epochs. A visual example of this model is shown below.
+
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/Deep%20Neural%20Network.png"/>
+</p>
 
 ### Explanation of changes in model choice (if any):
-
-There will be no changes made. The models chosen work appropriately.
+There will be no changes necessary here since the deep learning model was able to achieve a perfect accuracy. This model choice was superior to the 
+BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 59.8%. 
 
 ### Description of model training:
-
 The model is trained using the train_test_split function from the sklearn kit which is then fit using the X_train, 
 and y_train variables. The neural learning model uses the same function but uses StandardScaler to completely scale 
 and train the data to properly be used in optimization of the neural learning model.
