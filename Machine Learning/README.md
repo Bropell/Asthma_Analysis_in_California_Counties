@@ -48,7 +48,7 @@ use of boolean values provides an accurate score consistently. An example image 
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/basic%20tree%20sample.png"/>
 </p>
 
-Alternatively, the second model used was Neural learning because it can learn over time to be at or
+Alternatively, the second model used was Neural Learning because it can learn over time to be at or
 near 100% accurate after some amount of epochs. A visual example of this model is shown below.
 
 <p align="center">
@@ -60,27 +60,26 @@ There will be no changes necessary here since the deep learning model was able t
 BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 59.8%. 
 
 ### Description of model training:
-The model is trained using the train_test_split function from the sklearn kit which is then fit using the X_train, 
-and y_train variables. The neural learning model uses the same function but uses StandardScaler to completely scale 
-and train the data to properly be used in optimization of the neural learning model.
+The model is trained using the train_test_split function from the sklearn kit, as mentioned previously, which is then fit using 
+the X_train, and y_train variables using the 70/30 split. The neural learning model uses the same function but uses StandardScaler to 
+completely scale and train the data to be used properly in optimization of the neural learning model.
 
 ### Description of current accuracy:
-
-The first model used was the BalancedRandomForestClassifier and it gave an accuracy score of around .598.
+The BalancedRandomForestClassifier model yielded an accuracy score of around .598. An output image of the balanced accuracy score, 
+confusion matrix and imbalanced classification report is shown below.
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
 </p>
 
-The second model was a neural model which produces an accuracy score of 1.0 in approximately 10 epochs of 100. 
+The Neural Learning model yielded an accuracy score of 1.0 in approximately 10 epochs out of the allotted 100. 
 
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png"/>
 </p>
 
-Recommendations for enhancing the models would be 
-
--Enlarge the dataset that is used.
-
--Change the activation method of the neural model.
-
+### Model Improvements
+The major limitation for both of these models was the lack of abundance of data. That being said, the Neural Learning model did not require
+any improvements for this dataset specifically but may require optimization for larger datasets. Some of these optimizations can include changes
+to the number of hidden layers, the number of perceptrons per layer and changing the activation functions. The BalancedRandomForestClassifier 
+model could be improved by adjusting the weightings used for the testing and training sets. 
