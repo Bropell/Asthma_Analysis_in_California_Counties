@@ -21,7 +21,7 @@ There are 7 datasets where preprocessing was needed, here are the steps taken to
 - Made sure everything was merged properly into sql and then successfully exported into a csv 
 
 ### Description of feature and feature selection:
-The model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
+The first attempt model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
        'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
        'Pollutant: Formaldehyde', 'Target', 'TotalPop', 'Men', 'Women',
        'Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific', 'Income',
@@ -31,7 +31,19 @@ The model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Polluta
        'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork',
        'Unemployment', 'Max_Voltage', 'Total EV Chargers',
        'Private EV Chargers', 'Public EV Chargers', 'AcresBurned',
-       'Registered EV Count'
+       'Registered EV Count'<br>
+
+The second attempt model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
+       'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
+       'Pollutant: Formaldehyde', 'Target', 'TotalPop','Income',
+       'IncomePerCap', 'Poverty', 'ChildPoverty', 'Professional', 'Service',
+       'Office', 'Construction', 'Production', 'Drive', 'Carpool', 'Transit',
+       'Walk', 'OtherTransp', 'WorkAtHome', 'MeanCommute', 'Employed',
+       'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork',
+       'Unemployment', 'Max_Voltage', 'Total EV Chargers',
+       'Private EV Chargers', 'Public EV Chargers', 'AcresBurned',
+       'Registered EV Count', 'Biomass', 'Small Hydro', 'Geothermal',
+       'Solar Thermal', 'Solar Photovoltaic ', 'Wind', 'Total'
 
 The features contain all of the merged columns minus the "Target_t" & "Target_f" aka True & False columns meaning that asthma prevalence is over or under 8.8%.
 The Target is defined as "Target_t" which we are looking for those Counties that had asthma prevalence over 8.8%
@@ -56,8 +68,9 @@ near 100% accurate after some amount of epochs. A visual example of this model i
 </p>
 
 ### Explanation of changes in model choice (if any):
-There will be no changes necessary here since the deep learning model was able to achieve a perfect accuracy. This model choice was superior to the 
-BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 59.8%. 
+There will be no changes necessary here since the deep learning model was able to achieve a perfect accuracy in both attempts. This model choice was 
+superior to the BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 59.8% in the first attempt and 
+approximately 33% in the second attempt. 
 
 ### Description of model training:
 The model is trained using the train_test_split function from the sklearn kit, as mentioned previously, which is then fit using 
@@ -65,17 +78,30 @@ the X_train, and y_train variables using the 70/30 split. The neural learning mo
 completely scale and train the data to be used properly in optimization of the neural learning model.
 
 ### Description of current accuracy:
-The BalancedRandomForestClassifier model yielded an accuracy score of around .598. An output image of the balanced accuracy score, 
-confusion matrix and imbalanced classification report is shown below.
+The BalancedRandomForestClassifier model yielded an accuracy score of around .598 in the first attempt and .333 in the second attempt. 
+Output images of the balanced accuracy score, confusion matrix and imbalanced classification report for each attempt are shown below.
 
+<h4 align="center">First Attempt BRFC</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
 </p>
 
-The Neural Learning model yielded an accuracy score of 1.0 in approximately 10 epochs out of the allotted 100. 
+<h4 align="center">Second Attempt BRFC</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Re_Do/Machine%20Learning/Pictures/bfrc_REDO.png"/>
+</p>
 
+The Neural Learning model yielded an accuracy score of 1.0 in approximately 10 epochs out of the allotted 100 for the first attempt and 
+an accuracy score of 1.0 in approximately 15 epochs. 
+
+<h4 align="center">First Attempt Neural</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png"/>
+</p>
+
+<h4 align="center">Second Attempt Neural</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Re_Do/Machine%20Learning/Pictures/neural_REDO.png"/>
 </p>
 
 ### Model Improvements

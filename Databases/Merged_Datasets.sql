@@ -50,6 +50,14 @@ on trim(j."COUNTY") = trim(revs."County");
 
 alter table join6 drop column "COUNTY";
 
+select * 
+into join7
+from join6 as j
+left join clean_energy as ce
+on trim(j."County") = trim(ce."county");
+
+alter table join7 drop column "county";
+
 --export to csv afte all of the above is run
 
 select * from demographic_data;
