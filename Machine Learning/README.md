@@ -21,7 +21,7 @@ There are 7 datasets where preprocessing was needed, here are the steps taken to
 - Made sure everything was merged properly into sql and then successfully exported into a csv 
 
 ### Description of feature and feature selection:
-The model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
+The first attempt model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
        'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
        'Pollutant: Formaldehyde', 'Target', 'TotalPop', 'Men', 'Women',
        'Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific', 'Income',
@@ -31,7 +31,19 @@ The model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Polluta
        'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork',
        'Unemployment', 'Max_Voltage', 'Total EV Chargers',
        'Private EV Chargers', 'Public EV Chargers', 'AcresBurned',
-       'Registered EV Count'
+       'Registered EV Count'<br>
+
+The second attempt model features are as follows: 'County' 'Pollutant: 1,3-butadiene', 'Pollutant: Acetaldehyde',
+       'Pollutant: Benzene', 'Pollutant: Carbon tetrachloride',
+       'Pollutant: Formaldehyde', 'Target', 'TotalPop','Income',
+       'IncomePerCap', 'Poverty', 'ChildPoverty', 'Professional', 'Service',
+       'Office', 'Construction', 'Production', 'Drive', 'Carpool', 'Transit',
+       'Walk', 'OtherTransp', 'WorkAtHome', 'MeanCommute', 'Employed',
+       'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork',
+       'Unemployment', 'Max_Voltage', 'Total EV Chargers',
+       'Private EV Chargers', 'Public EV Chargers', 'AcresBurned',
+       'Registered EV Count', 'Biomass', 'Small Hydro', 'Geothermal',
+       'Solar Thermal', 'Solar Photovoltaic ', 'Wind', 'Total'
 
 The features contain all of the merged columns minus the "Target_t" & "Target_f" aka True & False columns meaning that asthma prevalence is over or under 8.8%.
 The Target is defined as "Target_t" which we are looking for those Counties that had asthma prevalence over 8.8%
