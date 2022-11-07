@@ -89,7 +89,7 @@ Output images of the balanced accuracy score, confusion matrix and imbalanced cl
 <h4 align="left">First Attempt Feature Importance</h4>
 Looking into the feature importance for this model's first attempt, where the clean energy dataset was not used, it was found that the transit 
 and percent black population features had the highest influence on the model as seen in the visualization provided below. The importance of other 
-features can also be seen but have a lower influence on the model.<br>
+features can also be seen but have a lower influence on the model.<br><br>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/feature_importances_brfc.png"/>
 </p> 
@@ -102,7 +102,7 @@ features can also be seen but have a lower influence on the model.<br>
 <h4 align="left">Second Attempt Feature Importance</h4>
 Looking into the feature importance for this model's second attempt, where the clean energy dataset was included, it was found that the total
 clean energy (GW) feature had the highest influence on the model. It can also be seen that the importances of other parameters moved around and
-the overall performance of the model dropped. For this reason, a neural model was used to handle the complexity of the data.<br>
+the overall performance of the model dropped. For this reason, a neural model was used to handle the complexity of the data.<br><br>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/feature_importances_brfc_REDO.png"/>
 </p>
