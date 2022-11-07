@@ -86,13 +86,14 @@ Output images of the balanced accuracy score, confusion matrix and imbalanced cl
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
 </p>
 
-Looking into the feature importance for this models first attempt, it was found that the transit and percent black population features
-had the highest influence on the model. A visualization is provided below to show these findings along with the other features used.
- 
 <h4 align="left">First Attempt Feature Importance</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/feature_importances_brfc.png"/>
 </p>
+
+Looking into the feature importance for this model's first attempt, where the clean energy dataset was not used, it was found that the transit 
+and percent black population features had the highest influence on the model as seen in the visualization provided above. The importance of other 
+features can also be seen but have a lower influence on the model.  
 
 <h4 align="left">Second Attempt BRFC</h4>
 <p align="center">
