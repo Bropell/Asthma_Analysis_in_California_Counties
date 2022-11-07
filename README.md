@@ -143,9 +143,9 @@ Mel and I further cleaned and combine out datasets to create our database.
 
 - https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
 
-- Zipcode Dataset: Added as  EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties. 
+Zipcode Dataset: Added as  EV Charging Station only has zipcodes but no County information. We merged the two sets together for the Zip-Code Dataset to fill in the Counties. 
 
-https://www.unitedstateszipcodes.org/zip-code-database/
+- https://www.unitedstateszipcodes.org/zip-code-database/
 
 **Database and changes to Raw Data were pushed directly to the main branch for convenience 
 
