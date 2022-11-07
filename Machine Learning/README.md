@@ -69,8 +69,8 @@ near 100% accurate after some amount of epochs. A visual example of this model i
 
 ### Explanation of changes in model choice (if any):
 There will be no changes necessary here since the deep learning model was able to achieve a perfect accuracy in both attempts. This model choice was 
-superior to the BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 59.8% in the first attempt and 
-approximately 33% in the second attempt. 
+superior to the BalancedRandomForestClassifier model since that model only achieved an accuracy of approximately 52.8% in the first attempt and 
+approximately 36.1% in the second attempt. 
 
 ### Description of model training:
 The model is trained using the train_test_split function from the sklearn kit, as mentioned previously, which is then fit using 
@@ -78,12 +78,20 @@ the X_train, and y_train variables using the 70/30 split. The neural learning mo
 completely scale and train the data to be used properly in optimization of the neural learning model.
 
 ### Description of current accuracy:
-The BalancedRandomForestClassifier model yielded an accuracy score of around .598 in the first attempt and .361 in the second attempt. 
+The BalancedRandomForestClassifier model yielded an accuracy score of around .528 in the first attempt and .361 in the second attempt. 
 Output images of the balanced accuracy score, confusion matrix and imbalanced classification report for each attempt are shown below.
 
 <h4 align="left">First Attempt BRFC</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
+</p>
+
+Looking into the feature importance for this models first attempt, it was found that the transit and percent black population features
+had the highest influence on the model. A visualization is provided below to show these findings along with the other features used.
+ 
+<h4 align="left">First Attempt Feature Importance</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/feature_importances_brfc.png"/>
 </p>
 
 <h4 align="left">Second Attempt BRFC</h4>
