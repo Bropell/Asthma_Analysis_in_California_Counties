@@ -81,12 +81,12 @@ completely scale and train the data to be used properly in optimization of the n
 The BalancedRandomForestClassifier model yielded an accuracy score of around .598 in the first attempt and .361 in the second attempt. 
 Output images of the balanced accuracy score, confusion matrix and imbalanced classification report for each attempt are shown below.
 
-<h4 align="center">First Attempt BRFC</h4>
+<h4 align="left">First Attempt BRFC</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/bfrc.png"/>
 </p>
 
-<h4 align="center">Second Attempt BRFC</h4>
+<h4 align="left">Second Attempt BRFC</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/bfrc_REDO.png"/>
 </p>
@@ -94,12 +94,12 @@ Output images of the balanced accuracy score, confusion matrix and imbalanced cl
 The Neural Learning model yielded an accuracy score of 1.0 in approximately 10 epochs out of the allotted 100 for the first attempt and 
 an accuracy score of 1.0 in approximately 15 epochs. 
 
-<h4 align="center">First Attempt Neural</h4>
+<h4 align="left">First Attempt Neural</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/Andrew_Stein/Pictures/neural.png"/>
 </p>
 
-<h4 align="center">Second Attempt Neural</h4>
+<h4 align="left">Second Attempt Neural</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/nueral_REDO.png"/>
 </p>
