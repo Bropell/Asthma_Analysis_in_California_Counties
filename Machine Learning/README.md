@@ -99,6 +99,15 @@ features can also be seen but have a lower influence on the model.
     <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/bfrc_REDO.png"/>
 </p>
 
+<h4 align="left">Second Attempt Feature Importance</h4>
+Looking into the feature importance for this model's second attempt, where the clean energy dataset was included, it was found that the total
+clean energy (GW) feature had the highest influence on the model. It can also be seen that the importances of other parameters moved around and
+the overall performance of the model dropped. For this reason, a neural model was used to handle the complexity of the data.
+ 
+<p align="center">
+    <img src= "https://github.com/Bropell/Asthma_Analysis_in_California_Counties/blob/main/Machine%20Learning/Pictures/feature_importances_brfc_REDO.png"/>
+</p>
+
 The Neural Learning model yielded an accuracy score of 1.0 in approximately 10 epochs out of the allotted 100 for the first attempt and 
 an accuracy score of 1.0 in approximately 15 epochs. 
 
