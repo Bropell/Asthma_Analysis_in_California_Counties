@@ -158,3 +158,16 @@ Google Slides : https://docs.google.com/presentation/d/1Qc1UkTimTW8qoDVL0oc98rq4
 
 Adding Exploritory Data Analysis
 
+## Week 4: Final Presentation 
+
+Created a Script for the final presentation and conducted research. 
+
+### Resources used:
+
+- https://www.aafa.org/asthma-facts/
+
+- https://lao.ca.gov/Publications/Report/4642#:~:text=As%20Figure%201%20shows%2C%20the,the%20revised%202021%2D22%20level.
+
+- https://lao.ca.gov/Infrastructure/Funding
+
+- https://www.nyserda.ny.gov/All-Programs/ChargeNY/Charge-Electric/Charging-Station-Programs/Charge-Ready-NY/Installing-a-Charging-Station#:~:text=The%20installation%20of%20a%20charging,several%20types%20of%20charging%20stations.
