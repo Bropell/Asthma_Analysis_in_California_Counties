@@ -160,7 +160,9 @@ Adding Exploritory Data Analysis
 
 ## Week 4: Final Presentation 
 
-Created a Script for the final presentation and conducted research. 
+Reviewed and presented our final presentation. 
+
+Uploaded Final Self Assessment. 
 
 ### Resources used:
 
